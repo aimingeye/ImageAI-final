@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+* {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.btn {
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+@media (min-width: 600px) {
+  .btn {
+    margin: 0 1em 2em;
+  }
+}
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-5 {
+    text-align: center;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, 0.5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+.btn-5:hover {
+border: 1px solid;
+box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+background-color: rgba(50, 255, 32, 0.3);
+outline-color: rgba(255, 255, 255, 0);
+outline-offset: 15px;
+text-shadow: 1px 1px 2px #427388;
+}
+.btn-5:active {
+  background-color: rgba(50, 255, 32, 0.5);
+  /* transform: translateY(4px); */
+  transform: scale(0.8);
+}
+
+.form{
+    width: 700px;
+    /* background-color: #FF7D9D;
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 33px 6px,
+    0px 36px, 4px 2px, 29px 6px, 33px 30px;
+    background-image:
+    linear-gradient(335deg, #C90032 23px, transparent 23px),
+    linear-gradient(155deg, #C90032 23px, transparent 23px),
+    linear-gradient(335deg, #C90032 23px, transparent 23px),
+    linear-gradient(155deg, #C90032 23px, transparent 23px),
+
+    linear-gradient(335deg, #C90032 10px, transparent 10px),
+    linear-gradient(155deg, #C90032 10px, transparent 10px),
+    linear-gradient(335deg, #C90032 10px, transparent 10px),
+    linear-gradient(155deg, #C90032 10px, transparent 10px); */
+}
+
+.inp {
+  transition: transform .3s;
+}
+.inp:hover{
+  transform: scale(1.05);
+}
+
+/* .button {
+    background-color: #04AA6D; Green
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  } */
+.bigsize{
+  width: 100px;
+  height: 44px;
+  text-align: center;
+}
+
+  

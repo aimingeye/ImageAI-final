@@ -32,4 +32,4 @@ List any software or tools that need to be installed before setting up the proje
     cd directory-of-the-app
     npm start
 4. Make sure you have npm installed before following up point no.2
-5. Server runs on port 3000 by default. You can run the frontend on port 3001 and database on port 5432 for smooth operation!
+5. Server runs on `port 3000` by default. You can run the frontend on `port 3001` and database on `port 5432` for smooth operation!
